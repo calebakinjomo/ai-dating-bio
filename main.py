@@ -3,6 +3,7 @@
 make.fun bounty entry: u-hamsyh-funniest-one-line-bio-for-an-ai-on-a-dating-6eb98ccf
 Writes the bio to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt)
 and prints exactly the same line to stdout. Stdlib only, no network, no input.
+The bio is a single fixed line and never changes between runs.
 """
 
 import os
